@@ -1,0 +1,332 @@
+/*
+body {
+  background-image: url('/images/bg/default.png');
+}
+*/
+
+@font-face {
+  font-family: "trebuchetms";
+  src: url("/css/fonts/Trebuchet-MS.woff") format('woff');
+}
+
+@font-face {
+  font-family: "trebuchetms";
+  src: url("/css/fonts/Trebuchet-MS-Bold.woff") format('woff');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "trebuchetms";
+  src: url("/css/fonts/Trebuchet-MS-Bold-Italic.woff") format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "trebuchetms";
+  src: url("/css/fonts/Trebuchet-MS-Italic.woff") format('woff');
+  font-style: italic;
+}
+
+.main {
+  background-color: #eeeeff;
+  margin-left: 170px;
+  margin-top: -14px;
+  left: 15;
+}
+
+.main h1 {
+  font-family: trebuchetms;
+  font-size: 2.0rem;
+  font-weight: bold;
+}  
+
+.main h2 {
+  font-family: arial;
+  font-size: 1.8rem;
+  font-weight: bold;
+}  
+
+.main h3 {
+  font-family: arial;
+  font-size: 1.4rem;
+  font-weight: bold;
+}  
+
+.main h4 {
+  font-family: arial;
+  font-size: 1.2rem;
+  font-weight: bold;
+}  
+
+.main h5 {
+  font-family: arial;
+  font-size: 1.0rem;
+  font-weight: bold;
+}  
+
+.main h6 {
+  font-family: arial;
+  font-size: 0.8rem;
+  font-weight: bold;
+}  
+
+.main p {
+  font-family: trebuchetms;
+  font-size: 1.2rem;
+  color: 000000;
+}
+
+.main a {
+  font-family: trebuchetms;
+  font-size: 1.2rem;
+  color: #0000ff;
+}
+
+.main_text {
+  margin: 20px;
+}
+
+.fancy p {
+  color: #0011ff;
+	font: 1.2rem georgia;
+}
+
+.red p {
+  color: #ff0000;
+  font: 1.4rem arial;
+	margin-left: 20px;
+}
+
+.green p {
+  color: #00ff00;
+  font: 1.4rem arial;
+  margin-left: 20px;
+}
+
+.blue p {
+  color: #0000ff;
+  font: 1.4rem arial;
+  margin-left: 20px;
+}
+
+.purple p {
+  color: #c000ff;
+  font: bold 1.4rem arial;
+  margin-left: 20px;
+}
+
+.p_big p {
+  color: #000000;
+  font-family: trebuchetms;
+  font-size: 1.9rem;
+}
+
+.p_arial p {
+  font: 1.1rem arial;
+  color: #000000;
+}
+
+.credits p {
+  font: 0.9rem arial;
+  color: #000000;
+  text-decoration: italic;
+}
+
+.pageviews {
+  width: 150px;
+  height: 100px;
+}
+
+.sidebar {
+  width: 160px;
+  z-index: 1;
+  top: 80;
+  left: 0;
+  background-color: #eeeeff;
+  overflow-x: hidden;
+  padding-top: 0px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 12px;
+  text-decoration: none;
+  font-family: trebuchetms;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #f00;
+  display: block;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+.sidebar_subpage {
+  margin-left: 40;
+  padding: 1px 1px 1px 25px;
+}
+
+.sidebar_subpage a {
+  color: #f00;
+  font-family: trebuchetms;
+  font-weight: normal;
+  font-size: 0.9rem;
+}
+
+.sidebar_subpage a:hover {
+  text-decoration: underline;
+}
+
+.header {
+  top: 0;
+  padding-top: 5px;
+}
+
+.header a {
+  text-decoration: none;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 28px;
+  color: #fff;
+  display: block;
+  text-decoration: bold;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+#searchcontainer {
+  position: fixed;
+  top: 10px;
+  right: 20px
+}
+
+.squares {
+  border-radius: 3px;
+  background: #22a5df;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 3px;
+  height: 24px;
+  margin-top: 32px;
+  margin-right: 8px;
+  text-decoration: none;
+  float: left;
+}
+
+.squares:hover {
+  background: #ffffff;
+  color: #22a5df;
+  text-decoration: none;
+}
+
+.squares a {
+  font: 0.8rem arial;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.squares:hover a {
+  color: #22a5df;
+}      
+
+#savedgamestitle {
+  text-align: center;
+  font-family: arial;
+}
+
+#nosaved {
+  font-family: trebuchetms;
+}
+
+.removebutton {
+  font-family: trebuchetms;
+  font-size: 18px;
+  display: inline;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #ff0000;
+  float: right;
+}
+
+.gamelink {
+  cursor: pointer;
+  font-size: 18px;
+  font-family: trebuchetms;
+}
+
+.squaresNew {
+  border-radius: 3px;
+  background: #22a5df;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 17px;
+  margin-top: 32px;
+  margin-right: 8px;
+  text-decoration: none;
+  text-align: center;
+  float: left;
+  font-family: arial !important;
+  font-size: 0.8rem !important;
+  color: #ffffff;
+}
+
+.themeSelectors {
+  border-radius: 3px;
+  background: #22a5df;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 17px;
+  margin-top: 32px;
+  margin-right: 8px;
+  text-decoration: none;
+  text-align: center;
+  float: left;
+  color: #ffffff;
+}
+
+.material-icons.md-18 {
+  font-size: 0.9rem;
+  vertical-align: middle;
+}
+.bookmarkui {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 3px;
+  background: #22a5df;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 17px;
+  margin-top: 32px;
+  margin-right: 8px;
+  text-decoration: none;
+  text-align: center;
+  float: left;
+  font-family: arial;
+  font-size: 0.8rem;
+  color: #ffffff;
+}
+
+#customColorLabel {
+  display: inline;
+}
+
+#gameoptions, .themeSelectors {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#optionscontainer {
+  display: none;
+}

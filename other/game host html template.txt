@@ -1,0 +1,23 @@
+Add this in the sidebar.html file. See the tutorial slides if you need help with any of the different values you need to enter. Try to get everything arranged in alphebetical order by the "data-title" attributes. 
+
+  <a href="/games/" onclick="sidebarMain();" target="_parent" 
+    data-title=""
+    data-text=""
+    data-isflash=""
+    data-framesrc=""
+    data-framewidth=""
+    data-frameheight=""
+    data-isbigfile=""
+    ></a>
+    
+partially filled in version with most common values
+
+  <a href="/games/" onclick="sidebarMain();" target="_parent" 
+    data-title=""
+    data-text=""
+    data-isflash="1"
+    data-framesrc=".swf"
+    data-framewidth="1100"
+    data-frameheight="700"
+    data-isbigfile="0"
+    ></a>
